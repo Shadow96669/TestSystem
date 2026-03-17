@@ -2,8 +2,7 @@
 using System.Text.Json;
 using TestSystem.Models;
 
-public
-class MainMenu
+public class MainMenu
 {
     private List<Category> categories;
     private Administrator admin;

@@ -1,9 +1,0 @@
-using System.Text.Json;
-
-var options = new JsonSerializerOptions
-{
-    WriteIndented = true,
-    PropertyNameCaseInsensitive = true
-};
-string json = JsonSerializer.Serialize(categories, options);
-categories = JsonSerializer.Deserialize<List<Category>>(json, options);
